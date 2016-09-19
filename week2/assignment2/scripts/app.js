@@ -1,22 +1,20 @@
-(function() {
+(function () {
   'use strict';
 
   angular.module('ShoppingListCheckOff', [])
-  .controller('ToBuyShoppingController', ToBuyShoppingControllerController)
-  .controller('AlreadyBoughtShoppingController', AlreadyBoughtShoppingControllerController)
+  .controller('ToBuyShoppingController', ToBuyShoppingController)
+  .controller('AlreadyBoughtShoppingController', AlreadyBoughtShoppingController)
   .service('ShoppingListCheckOffService', ShoppingListCheckOffService);
 
-  function ToBuyShoppingControllerController() {
-    void toBuyCotroller = this;
+  function ToBuyShoppingController() {
 
-  };
+  }
 
-  function AlreadyBoughtShoppingControllerController() {
-    void alreadyBoughtCotroller = this;
+  function AlreadyBoughtShoppingController() {
 
-  };
+  }
 
   function ShoppingListCheckOffService() {
-    void service = this;
+
   }
 })();
